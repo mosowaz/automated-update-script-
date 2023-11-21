@@ -1,1 +1,1 @@
-# automated-update-script-
+# automated-update-script
