@@ -1,0 +1,12 @@
+[Unit]
+Description=Automated Update Timer
+
+[Timer]
+OnCalendar=*-*-* 04:00:00  #timer set to 4am daily
+Persistent=true
+
+#Use "true" or "on" or "1"
+#Use "false" or "off" or "0"
+
+[Install]
+WantedBy=timers.target

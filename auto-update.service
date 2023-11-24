@@ -1,0 +1,12 @@
+[Unit]
+Description=Automated Update Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c ~/bin/multi-disto-update_script.sh
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
