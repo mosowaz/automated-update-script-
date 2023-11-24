@@ -20,4 +20,8 @@ run these commands;
 /etc/systemd/system$ sudo systemctl daemon-reload
 /etc/systemd/system$ sudo systemctl enable auto-update.service
 /etc/systemd/system$ sudo systemctl enable auto-update.timer
-/etc/systemd/system$ sudo systemctl start auto-update.service 
+/etc/systemd/system$ sudo systemctl start auto-update.service
+
+check the status of their statuses with
+/etc/systemd/system$ sudo systemctl status -l auto-update.service 
+/etc/systemd/system$ sudo systemctl status -l auto-update.timer
